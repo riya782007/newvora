@@ -3,24 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <title>Newvora — Onboarding & Operations System</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   /* NEWVORA brand v2 — solid black, no gradients, solid Gen-Z color blocks */
   :root{
-    --bg:#000000; --panel:#0d0d0d; --panel2:#151515; --border:#242424;
-    --text:#f5f5f3; --muted:#9b9b9b; --accent:#c8ff2e; --accent2:#ff5ca8;
-    --green:#4be38a; --amber:#ffe14d; --blue:#3fe0ff; --red:#ff5c5c;
+    --bg:#061A18; --panel:#0B2420; --panel2:#0F2E2A; --border:#1C3A36;
+    --text:#F8FAFC; --muted:#A3BDB8; --accent:#2DD4BF; --accent2:#F59E0B;
+    --green:#4be38a; --amber:#F59E0B; --blue:#3fe0ff; --red:#ff5c5c;
     --radius:12px;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   body{font-family:'Inter','Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh;}
-  h2,h3,.logo,.stat .num{font-family:'Space Grotesk',sans-serif; letter-spacing:-.01em;}
+  h2,h3,.logo,.stat .num{font-family:'Manrope',sans-serif; letter-spacing:-.01em;}
   header{padding:20px 28px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--border); flex-wrap:wrap; gap:12px;}
   .logo{font-size:22px; font-weight:700; letter-spacing:.5px;}
   .logo span{color:var(--accent);}
+  .logo{font-weight:800;}
   .logo small{display:block; font-size:11px; color:var(--muted); font-weight:400; letter-spacing:1px;}
   nav{display:flex; gap:6px; flex-wrap:wrap;}
   nav button{background:transparent; border:1px solid var(--border); color:var(--muted); padding:8px 16px; border-radius:8px; cursor:pointer; font-size:14px; transition:.15s;}
@@ -61,9 +64,9 @@
   .addbtn:hover{border-color:var(--accent); color:var(--accent);}
   .tag{display:inline-block; font-size:10.5px; padding:2px 8px; border-radius:20px; margin-right:4px; margin-top:6px;}
   .tag.f{background:rgba(255,225,77,.14); color:var(--amber); border:1px solid var(--amber);}
-  .tag.s{background:rgba(200,255,46,.12); color:var(--accent); border:1px solid var(--accent);}
+  .tag.s{background:rgba(45,212,191,.12); color:var(--accent); border:1px solid var(--accent);}
   .tag.c{background:rgba(75,227,138,.12); color:var(--green); border:1px solid var(--green);}
-  .tag.cc{background:rgba(255,92,168,.14); color:var(--accent2); border:1px solid var(--accent2);}
+  .tag.cc{background:rgba(245,158,11,.14); color:var(--accent2); border:1px solid var(--accent2);}
   /* pods */
   .pod{background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); padding:18px; margin-bottom:16px;}
   .pod .head{display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;}
@@ -97,7 +100,7 @@
 <body>
 
 <header>
-  <div class="logo">new<span>vora</span><small>ONBOARDING & OPERATIONS SYSTEM</small></div>
+  <div class="logo"><svg viewBox="6 6 108 108" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width:30px;height:30px;vertical-align:-7px;margin-right:8px"><path d="M104 60 A44 44 0 1 1 82 21.9" fill="none" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round"/><circle cx="98.1" cy="38" r="7" fill="#F59E0B"/><path d="M44 82 V60 a16 16 0 0 1 32 0 V82" fill="none" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>newvora<small>ONBOARDING & OPERATIONS SYSTEM</small></div>
   <nav>
     <button data-view="dash" class="active">Dashboard</button>
     <button data-view="clients">Clients</button>
