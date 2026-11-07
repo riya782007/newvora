@@ -1,0 +1,17 @@
+# Newvora
+
+> Newvora is a software studio based in New Delhi, India, founded by Riya Yadav. It designs and builds custom software, custom ERP systems, business websites and e-commerce / B2B ordering platforms for small and medium businesses, built around each client's actual workflow. Every project starts with a written scope and a fixed quote; the client owns the code and data.
+
+Contact: WhatsApp / phone +91 83770 62790 · hello@newvora.in · https://newvora.in
+Serves: Delhi NCR in person; clients across India remotely.
+
+## Services
+- [Custom software development](https://newvora.in/custom-software-development/): internal tools, dashboards, workflow automation, integrations (WhatsApp, Tally, Google Sheets, payment gateways)
+- [Custom ERP software](https://newvora.in/custom-erp-software/): inventory, sales orders, GST-ready billing, purchase, staff, Tally export, owner dashboards; built module by module
+- [Website development](https://newvora.in/website-development/): custom-designed, mobile-first business websites with search-ready structure
+- [E-commerce and ordering platforms](https://newvora.in/ecommerce-development/): retail stores and wholesale B2B ordering portals with price tiers, variant inventory, UPI/COD checkout
+
+## Work
+- Jewellery wholesale commerce platform (retail and wholesale tiers, variant inventory, UPI/COD checkout)
+- Retail jeweller storefront (catalogue, enquiry capture, order tracking)
+- Voice2WA (own product): voice notes to WhatsApp messages in Hindi, Hinglish and English — https://whatsapp-theta-nine.vercel.app/
